@@ -13,13 +13,15 @@ First you need to create a virtual environment and install the necessary depende
 
 For Linux:
 ```
-python -m vev venv 
+python -m vev venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
 For Windows (install python by the official site):
 ```
 py -3 -m venv venv
+venv\bin\Activate
 pip install -r requirements.txt
 ```
 
