@@ -5,9 +5,9 @@ app = Flask(__name__)
 bootstrap = Bootstrap(app)
 
 
-@app.route("/")
+@app.route("/lala")
 def index():
-  return '<h1>Hello Sparti Tech Lab!</h1>'
+  return '<h1>Alli selid</h1>'
 
 
 @app.route("/index/<name>")

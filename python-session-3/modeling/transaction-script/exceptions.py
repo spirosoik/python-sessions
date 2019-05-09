@@ -1,0 +1,2 @@
+class DebitException(Exception):
+  pass
